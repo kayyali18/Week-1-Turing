@@ -1,0 +1,174 @@
+
+
+/* ------------- Main & Layout -------------- */
+
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+}
+
+header {
+  background-color: rgb(113, 205, 226);
+}
+
+.landing {
+  background: url('images/park.jpg');
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  padding: 3rem;
+}
+
+footer {
+  background-color: #097b8e;
+  color: white;
+  height: 11rem;
+  text-align: center;
+}
+
+.footer-block {
+  display: block;
+}
+
+
+/*  Doggos */
+
+
+.doggo-container {
+  text-align: center;
+  min-width: 100%;
+}
+
+.doggo-profile {
+  display: inline-block; /*makes things inline but blocky (: */
+  margin: 1rem auto auto auto;
+  overflow: auto;
+  padding: 2rem;
+  width: 23rem;
+}
+
+.doggo-portrait {
+  border: 2px solid #097b8e;
+  border-radius: 50%;
+  height: 12rem;
+  margin: 1rem;
+  width: 12rem;
+}
+
+.doggo-btn {
+  height: 3rem;
+  margin: 1rem;
+  padding: 0 1rem;
+}
+h5 {
+  font-size: 16px;
+  margin: 1rem;
+}
+
+p {
+  text-align: center;
+  word-wrap: break-word;
+}
+
+
+
+/* ------------- Fonts ----------------- */
+
+body {
+  font-family: 'Raleway', sans-serif;
+}
+
+h1,
+h6,
+button {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
+}
+
+button {
+  color: #097b8e;
+  font-size: 1rem;
+}
+
+
+/* ---------- Elements -------- */
+
+#icon {
+  display: inline;
+  height: 2rem;
+  width: auto;
+  /* display: inline; */
+  margin: .5rem;
+}
+
+a:hover {
+  color: rgb(194, 145, 20);
+}
+
+.svg {
+  fill: rgb(194, 145, 20);
+}
+
+ul {
+  color: white;
+  float: right;
+  margin: 1rem;
+  width: 14rem;
+}
+
+li a {
+  color: inherit;
+  text-decoration: none;
+}
+
+li {
+  display: inline;
+  margin: 2rem 1rem;
+}
+
+
+section img {
+  border: 5px solid #097b8e;
+  border-radius: 50%;
+  display: block;
+  height: 20rem;
+  margin: 3rem auto;
+  width: 20rem;
+}
+
+h1,
+button {
+  margin: 2rem;
+}
+
+button {
+  border: 3px solid #097b8e;
+  padding: .7rem;
+}
+
+button:hover {
+  border: 3px solid rgb(194, 145, 20);
+}
+
+
+/* Footer  */
+
+h6 {
+  font-size: 16px;
+  margin: 1rem;
+  padding: 1rem;
+}
+
+footer img {
+  padding: 0 1rem;
+}
+
+footer a {
+  color: white;
+  margin: .5rem;
+  padding: .5rem;
+}
